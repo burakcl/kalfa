@@ -8,14 +8,9 @@ tagline:
 <article class="home">
 
   <span class="post-date">
-    {% assign d = post.date | date: "%d" | plus:'0' %}
-    {{ post.date | date: "%B" }}
-    {% case d %}
-    {% when 1 or 21 or 31 %}{{ d }}st,
-    {% when 2 or 22 %}{{ d }}nd,
-    {% when 3 or 23 %}{{ d }}rd,
-    {% else %}{{ d }}th,
-    {% endcase %}
+    {% assign m = post.date | date: "%m" | plus: -1 %}
+    {% assign my_array = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}{{ my_array[m] }}
+    {{post.date | date: "%d"}},
     {{ post.date | date: "%Y" }}
   </span>
 
