@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>K ALFA</title>
+		<description>Stylish Jekyll Theme</description>
+		<link>https://burakcl.github.io/kalfa//</link>
+		<atom:link href="https://burakcl.github.io/kalfa//feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>İkinci Adım</title>
+				<description>&lt;p&gt;Bu projede GNU Bash kabuğu için yazılmış betikleri inceleyeğiz, ithiyaç duyduğumuz betikleri yazıp, betikler ile neler yapabileceğimize bakacağız.
+Amacı açıkladık ama yeni başlayan birisi için bazen bu betikleri anlamak ve yazmak güç oluyor. GNU Bash Kabuğu hakkında bilgi edinmiş olsa da çoğu zaman bu noktada tıkanmalar oluyor bu noktaya atlama noktası diyorum.
+Neden mi ? :) Yazdık, çalıştıramadık. Yazdık, çalıştıramadık. Yazdık, çalıştıramadık. Çalıştı :D  Ama istediğimiz gibi değil. Hatta bazen öyle olur ki&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WWaLxFIVX1s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Bu durumları görünce “K Alfa iş başına, Kaplumbağa olabilirsin ama sende atlayabilirsin” dedim. Bakalım ne kadar yüksek atlayabileceğim. Şimdi gelelim konuların takibatı için ya da yeni başlayanlar için kaynakları listelemeye kuru kuru al işte dercesine liste koymayacağım. İki durum var açıklık getirilmesi gereken yazdığım kaynağın kimi küçük örnekler ile sizi bir yerlere getirirken kimisi de okuduğunuz zaman bir daha okumak zorunda kalacağınız durumları içeriyor.&lt;/p&gt;
+
+&lt;p&gt;İlk kaynağımız &lt;a href=&quot;http://www.getgnu.org/e-kitap/gnu-bash-basvuru-kilavuzu.html&quot;&gt;GNU BASH Başvuru Kılavuzu&lt;/a&gt;, adındanda anlaşılacağı üzere bir rehber kabuk özelliği ve çevresinden bahsediyor. Bu kılavuz hakkında şunu söyleyebilirim MADEN. Özellik ve ne işe yaradığı ufak bir örnek ile anlatılıyor.&lt;/p&gt;
+
+&lt;p&gt;İkinci kaynağımız ise &lt;a href=&quot;https://linux.web.tr/&quot;&gt;LinuxWebTR&lt;/a&gt; nin hazırlamış olduğu Bash script ders serisi oluşturulan içerik yeni başlayan birine kabuk betiği yazmayı ve kabuk araçlarının kullanımını anlatıyor.&lt;/p&gt;
+
+&lt;p&gt;Sadece yukarıdaki iki kaynak bu iş için önemli derecede bilgi sağlıyor. Eksiğiniz varsa ya da bilgi tazelemek isterseniz bu kaynakları şöyle bir göz gezdirmekte fayda var. Hatta vaktiniz varsa hepsini okuyun farklı bilgiler öğrenirsiniz.
+Gerekli olduğu zaman ilgili kavramların kısayollarını ekleyeceğim.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 08 Jun 2017 00:00:00 +0300</pubDate>
+				<link>https://burakcl.github.io/kalfa//ad%C4%B1mlar/merhaba/2017/06/08/Ad%C4%B1m-iki.html</link>
+				<guid isPermaLink="true">https://burakcl.github.io/kalfa//ad%C4%B1mlar/merhaba/2017/06/08/Ad%C4%B1m-iki.html</guid>
+			</item>
+		
+			<item>
+				<title>Birinci Adım</title>
+				<description>&lt;p&gt;Bu projede GNU Bash kabuğu için yazılmış betikleri inceleyeğiz, ithiyaç duyduğumuz betikleri yazıp, betikler ile neler yapabileceğimize bakacağız.
+Amacı açıkladık ama yeni başlayan birisi için bazen bu betikleri anlamak ve yazmak güç oluyor. GNU Bash Kabuğu hakkında bilgi edinmiş olsa da çoğu zaman bu noktada tıkanmalar oluyor bu noktaya atlama noktası diyorum.
+Neden mi ? :) Yazdık, çalıştıramadık. Yazdık, çalıştıramadık. Yazdık, çalıştıramadık. Çalıştı :D  Ama istediğimiz gibi değil. Hatta bazen öyle olur ki&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WWaLxFIVX1s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Bu durumları görünce “K Alfa iş başına, Kaplumbağa olabilirsin ama sende atlayabilirsin” dedim. Bakalım ne kadar yüksek atlayabileceğim. Şimdi gelelim konuların takibatı için ya da yeni başlayanlar için kaynakları listelemeye kuru kuru al işte dercesine liste koymayacağım. İki durum var açıklık getirilmesi gereken yazdığım kaynağın kimi küçük örnekler ile sizi bir yerlere getirirken kimisi de okuduğunuz zaman bir daha okumak zorunda kalacağınız durumları içeriyor.&lt;/p&gt;
+
+&lt;p&gt;İlk kaynağımız &lt;a href=&quot;http://www.getgnu.org/e-kitap/gnu-bash-basvuru-kilavuzu.html&quot;&gt;GNU BASH Başvuru Kılavuzu&lt;/a&gt;, adındanda anlaşılacağı üzere bir rehber kabuk özelliği ve çevresinden bahsediyor. Bu kılavuz hakkında şunu söyleyebilirim MADEN. Özellik ve ne işe yaradığı ufak bir örnek ile anlatılıyor.&lt;/p&gt;
+
+&lt;p&gt;İkinci kaynağımız ise &lt;a href=&quot;https://linux.web.tr/&quot;&gt;LinuxWebTR&lt;/a&gt; nin hazırlamış olduğu Bash script ders serisi oluşturulan içerik yeni başlayan birine kabuk betiği yazmayı ve kabuk araçlarının kullanımını anlatıyor.&lt;/p&gt;
+
+&lt;p&gt;Sadece yukarıdaki iki kaynak bu iş için önemli derecede bilgi sağlıyor. Eksiğiniz varsa ya da bilgi tazelemek isterseniz bu kaynakları şöyle bir göz gezdirmekte fayda var. Hatta vaktiniz varsa hepsini okuyun farklı bilgiler öğrenirsiniz.
+Gerekli olduğu zaman ilgili kavramların kısayollarını ekleyeceğim.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 08 Jun 2017 00:00:00 +0300</pubDate>
+				<link>https://burakcl.github.io/kalfa//ad%C4%B1mlar/merhaba/2017/06/08/Adim-bir.html</link>
+				<guid isPermaLink="true">https://burakcl.github.io/kalfa//ad%C4%B1mlar/merhaba/2017/06/08/Adim-bir.html</guid>
+			</item>
+		
+	</channel>
+</rss>
