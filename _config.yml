@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 disqus:
 google_analytics:
-title: Kaplumbağa ALfa
+title: K ALFA
 
 defaults:
   -
@@ -18,7 +18,7 @@ defaults:
 
 description: Stylish Jekyll Theme
 author:
-  name: K ALFA
+  name: burakcl
   github: burakcl/kalfa
   twitter: fclburak
   bio: Merhaba! Ben Kaplumbağa Alfa, bana kısaca K ALFA diyebilirsin. Bu projede kabuk programlama üzerine kafa yoruyoruz.
