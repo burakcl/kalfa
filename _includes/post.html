@@ -92,7 +92,7 @@
       </section>
 
       <section class="col-sm-6 author">
-        <img src="//www.gravatar.com/avatar/{{site.author.email_md5}}" class="img-rounded author-image" />
+        <img src="{{site.BASE_PATH}}/assets/media/kaplumbaga.png" class="img-rounded author-image" />
         <h4 class="section-title author-name">{{site.author.name}}</h4>
         <p class="author-bio">{{site.author.bio}}</p>
       </section>
@@ -116,9 +116,9 @@
      var t = 0;
       for(i=0; i<5; i++ ){
       t=r;
- 			var r = Math.ceil(Math.random()*10)-1;
+ 			var r = Math.ceil(Math.random()*8)-1;
       if(t != r)
- 			document.write("<div class=sc-column><div class=sour-column><div class=sour-image ><a href="+scl[r]+" ><img src=/assets/media/sources/"+sci[r]+" width=100 height=150></a></div><div class=sour-content ><h5><a href="+scl[r]+" > "+scn[r]+"</a></h5></div></div></div>");}
+ 			document.write("<div class=sc-column><div class=sour-column><div class=sour-image ><a href="+scl[r]+" ><img src={{site.BASE_PATH}}/assets/media/sources/"+sci[r]+" width=100 height=150></a></div><div class=sour-content ><h5><a href="+scl[r]+" > "+scn[r]+"</a></h5></div></div></div>");}
     </script>
     </div>
 	</div>
