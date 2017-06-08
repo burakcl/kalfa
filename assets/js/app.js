@@ -25,6 +25,13 @@
         else
           $('.tab-pane').length && $($('.cat-tag-menu li a')[0]).tab('show');
       }
+      if('https://burakcl.github.io/kalfa/tags.html'.indexOf(window.location.pathname) > -1) {
+        var hash = window.location.hash;
+        if(hash)
+          $('.tab-pane').length && $('a[href="' + hash + '"]').tab('show');
+        else
+          $('.tab-pane').length && $($('.cat-tag-menu li a')[0]).tab('show');
+      }
     }
 
     // watch hash change and activate relevant tab
