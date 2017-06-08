@@ -18,13 +18,11 @@ defaults:
 
 description: Stylish Jekyll Theme
 author:
-  name: Kaplumbağa Alfa
-  email:
+  name: K ALFA
   github: burakcl
   twitter: fclburak
-  pinterest:
-  linkedin:
-  bio: Merhaba biraz kabuk egzersizine ne dersin?
+  bio: Merhaba ben Kaplumbağa Alfa, bana kısaca K ALFA diyebilirsin. Bu projede Kabuk programlama üzerine kafa yoruyoruz.
+
   email_md5:
 
 rss_path: feed.xml
