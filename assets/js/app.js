@@ -18,7 +18,7 @@
      * Tags & categories tab activation based on hash value. If hash is undefined then first tab is activated.
      */
     function activateTab() {
-      if(['https://burakcl.github.io/kalfa/tag.html', 'https://burakcl.github.io/kalfa/categories.html'].indexOf(window.location.pathname) > -1) {
+      if('https://burakcl.github.io/kalfa/categories.html'.indexOf(window.location.pathname) > -1) {
         var hash = window.location.hash;
         if(hash)
           $('.tab-pane').length && $('a[href="' + hash + '"]').tab('show');
