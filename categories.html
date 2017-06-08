@@ -38,7 +38,10 @@ group: navigation
         {% for node in pages_list %}
           {% if node.title != null %}
             {% if group == null or group == node.group %}
-              <li style="line-height: 35px;"><a href="{{ site.BASE_PATH }}{{node.url}}">{{node.title}}</a> <span class="text-muted">- {{ node.date | date: "%B %d, %Y" }}</span></li>
+              <li style="line-height: 35px;"><a href="{{ site.BASE_PATH }}{{node.url}}">{{node.title}}</a> <span class="text-muted">-
+                {% assign m = node.date | date: "%m" | plus: -1 %}
+                {% assign my_array = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}{{ my_array[m] }}
+                {{ node.date | date: "%d, %Y" }}</span></li>
             {% endif %}
           {% endif %}
         {% endfor %}
