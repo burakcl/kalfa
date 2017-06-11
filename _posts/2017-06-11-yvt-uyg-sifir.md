@@ -3,11 +3,11 @@ layout: post
 title: Uygulama Sıfır
 categories: [Uygulama]
 tags: [youtube, bash, shell, resim]
-url: https://burakcl.github.io/kalfa/Uygulama/2017/06/11/yvt-uyg-sifir.html
+url: https://burakcl.github.io/kalfa/uygulama/2017/06/11/yvt-uyg-sifir.html
 ---
 Geçen ay ödevlerimden bir tanesi html dosyalarını işleyebilen bir java programlama dili kütüphanesi olan [Jsoup](https://jsoup.org/) üzerine çalışmıştım. Verilen ödev [beyazperde.com](http://www.beyazperde.com/) üzerindeki barınan film yorumlarını işlemekti. Bütün filmlerin olduğu sayfadan sırasıyla film adı, film adresi, film hakkındaki eleştirilere erişmemiz gerekiyordu ve jsoup kütüphanesini kullanarak bu işlemleri yapmak hatta verileri html etiketlerine göre ayıklama özelliği hoşuma gitmişti. Buraya sorun yok olay basit. Site üzerinde bulunan film sayısı yaklaşık 16.000 civarı ve her filmin sabit olmayan sayıda eleştirisi mevcuttu. Her sayfada belirli sayıda yorum veya film vardı. Örneğin, B filminin eleştiri sayısı 300 diyelim her sayfada 20 yorum görüntülendiğini düşünürsek 15 sayfadan oluşturan bir eleştiri sayfa dizisi mevcut ve bunları işlemek için gerekli araç seti jsoup sayesinde baya baya rahattı. Ama kabukta bunu yapsak nasıl olurdu diye aklıma gelen parçalara bakınca curl, grep, cut üçlüsü bu işi görürdü dedim orada kalmaması için yazdım not defterime.
 
-Devam edelim, [youtube-dl]() aracını artık çoğumuz biliyoruz yeni başlayan arkadaşlara tavsiye edebileceğim oradan buradan video, müzik ve daha türlü iş için alet çantası gibi bir konsol uygulaması. Uygulama yer alan video ile birlikte tırnak resmini indirebildiğimiz bir parametresi mevcut( Parametre ne hacı? `man youtube-dl /thumbnail`). Ben sadece resmi istiyorum ama o videoyu bonusa ekliyordu. Sonra dedim bu işi yapan bir betik yazalım.
+Devam edelim, [youtube-dl](http://rg3.github.io/youtube-dl/) aracını artık çoğumuz biliyoruz yeni başlayan arkadaşlara tavsiye edebileceğim oradan buradan video, müzik ve daha türlü iş için alet çantası gibi bir konsol uygulaması. Uygulama yer alan video ile birlikte tırnak resmini indirebildiğimiz bir parametresi mevcut( Parametre ne hacı? `man youtube-dl /thumbnail`). Ben sadece resmi istiyorum ama o videoyu bonusa ekliyordu. Sonra dedim bu işi yapan bir betik yazalım.
 
 ### Düşünceden analize
 Youtube'a girip hemen `f12` ile html kodumuza bir göz gezdirelim. Neyi istiyorduk videonun tırnak fotoğrafını. Hemen istediğimiz elemanı seçip resim nereden geliyormuş bakalım.
