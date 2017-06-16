@@ -125,7 +125,7 @@ fi
 
 Zamanı geldi, betiğimize çalıştırma yetkisi atayalım ve kabuğa gönderelim. Sırasıyla yazdıklarımızı test edelim.
 
-<div style="text-align:center"><img src ="{{site.BASE_PATH}}/assets/media/pimg/yvk-sh/res-cek-sh.png" /></div>
+<div style="text-align:center"><script type="text/javascript" src="https://asciinema.org/a/3adrmhshclk47s2v0vqfclmcw.js" id="asciicast-3adrmhshclk47s2v0vqfclmcw" async></script></div>
 
 İndirilen resimlerin isimleri dikkatimi çekmekte. `default`, `hqdefault` ve  `maxresdefault` bu isimlerin bu şekilde kalmasını istemiyorum video ismi neyse onlara kendi ismini verelim bunun için yine bir fonksiyon yazalım.
 Bu sefer yapacağımız iş sırası
@@ -178,7 +178,7 @@ function fyeniad(){
 
 Artık istediğimiz gibi çalışıyor.
 
-<div style="text-align:center"><img src ="{{site.BASE_PATH}}/assets/media/pimg/yvk-sh/res-cek-snc.png" /></div>
+<div style="text-align:center"><script type="text/javascript" src="https://asciinema.org/a/1szonh1r7n5wzshyggl115ji3.js" id="asciicast-1szonh1r7n5wzshyggl115ji3" async></script></div>
 
 ### Şimdi tek tek kim indirecek bunları
 Buna çözüm olarak veya bir kere de birden fazla indirmek istenen durumlar için youtube listelerini lehimize kullanabiliriz. O zaman hemen liste yapısını inceleyelim neler yapabiliriz görelim.
@@ -332,7 +332,7 @@ fi
 {% endhighlight %}
 
 #### Çalıştıralım.
-<div style="text-align:center"><img src ="{{site.BASE_PATH}}/assets/media/pimg/yvk-sh/sonuc.png" /></div>
+<div style="text-align:center"><img src ="{{site.BASE_PATH}}/assets/media/pimg/yvk-sh/sonuc.gif" /></div>
 
 ## Uygulama 0 bitmedi olarak buraya not düşelim eksik bıraktığımız noktalar mevcut.
 Buraya o eksikleri yazalım.
