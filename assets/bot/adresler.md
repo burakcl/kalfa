@@ -1,7 +1,0 @@
----
-Kaplumbağa Alfa http://getir.net/yge9 #kalfa #kabuk #bash #shell
-Birinci adım http://getir.net/0577 #adim #kalfa #kabuk #bash #merhaba
-İkinci adım http://getir.net/05hc #adim #kalfa #kabuk #bash #kitap #rehber
-Uygulama 0 http://getir.net/056p #youtube #resimcek #uygulama #bash #kalfa
-Üçüncü adım Bash kabuğunu anlamak http://getir.net/05ub #adim #bash #kalfa #kabuk
----
