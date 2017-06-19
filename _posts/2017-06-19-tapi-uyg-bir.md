@@ -225,6 +225,6 @@ Burada sorunlardan biride  betikteki kabuk adresini değiştirmemiz gerekiyor.
 {% highlight bash %}
 #!/data/data/com.termux/files/usr/bin/bash
 {% endhighlight %}
-Telefona attığımız dosyayı termuxa aktarmak için dosyayı taşı sorulan adreste termux seçeneğini ya da birlikte aç seçeneği sağlayan bir dosya yöneticisi ile termuxu seçmek yeterli olacaktır.
+Telefona attığımız dosyayı termuxa aktarmak için dosyayı taşı sorulan adreste termux seçeneğini seç ya da birlikte aç seçeneği sağlayan bir dosya yöneticisi ile termuxu seçmek yeterli olacaktır.
 
 ### Bitti. Artık telefon bu işi istediğiniz saatlerde yapacaktır.
