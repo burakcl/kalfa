@@ -143,9 +143,9 @@ Artık tweetleyebiliriz tabi uygun saatte.
 ### Crontab ayarlarımızı yapalım.
 Crontab zamanlanmış görev servisidir, tanımladığım zaman dilimlerinde tanımladığım işi yap diyebileceğiniz bir servis. Bizde zamanları ayarlarak crontab servisini aktif yapalım.
 {% highlight bash %}
-*/30 8-10/1 * * 2,5 ~/Development/jack/shell-kalfa/tweetle-kalfa
-*/20 12-12/1 * * 1,4 ~/Development/jack/shell-kalfa/tweetle-kalfa
-*/45 16-19/1 * * 3,6 ~/Development/jack/shell-kalfa/tweetle-kalfa
+*/30 8-10 * * 2,5 ~/Development/jack/shell-kalfa/tweetle-kalfa
+*/20 12 * * 1,4 ~/Development/jack/shell-kalfa/tweetle-kalfa
+*/45 16-19 * * 3,6 ~/Development/jack/shell-kalfa/tweetle-kalfa
 {% endhighlight %}
 Haftanın 2 ve 5'inci günleri saat 8-10 arası her yarım saatte betiği çalıştırmasını istedik `sabahkusu` fonksiyonu için, haftanın 1 ve 4'üncü günleri saat 12'de 20 dk ara ile yine betiği çalıştırsın `ogle` fonksiyonu için diğer kalan satır ise `aksamvakti` fonksiyonu için haftanın 3 ve 6'ncı 16-19 arası her saat başı ve her 45 dk da bir tweetlesin olarak yazdık.
 
