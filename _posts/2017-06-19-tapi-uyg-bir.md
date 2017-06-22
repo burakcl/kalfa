@@ -31,7 +31,7 @@ Bize yapmamız gerekenleri söylüyor sırasıyla
 
 Bu kısmı otomatik olarak yönlendirdiği için herhangi bir ekleme yapmayacağım. Tweet atıp testimizi yapalım, `t update metin` şeklinde tweet atabiliyoruz.
 
-<div style="text-align:center"><img src ="/assets/media/pimg/tw-robot/tweet.gif" /></div>
+<div style="text-align:center"><img src ="{{ site.BASE_PATH }}/assets/media/pimg/tw-robot/tweet.gif" /></div>
 
 ### Betiğimizin çalışma planı
 Tweet metinlerini liste halinde oluşturalım. Betik metinleri buradan çeksin. Liste yapmamın sebebi her seferinde sitedeki değişikliği kontrol edip en son değişikliği paylaştırmak uzun ve bence uzun bir işlem bunun yerine oluşturduğumuz metinleri ve adresleri saate göre tweetlesin. Saat olmasının sebebi sayac tutmak yerine saati olan tweetler olsun her şeyin vaktinin ve yerinin olduğu bir düzen şeklinde saatin kendisi gibi çalışssın.
@@ -211,7 +211,7 @@ Araç takımını kuralım.
 
 Kurulumu tamamladıktan sonra `t` yetkilendirme işlemlerini sağlıyorsunuz. Bu işlemleri yaparken tarayıcı ile masaüstü isterseniz daha sağlıklı istediği adımları gerçekleştirirsiniz.
 
-> vim kullanırken esc tuşu lazım olacak hemen o paneli de aktif edelimde öyle kalmayalım. Ses artırma tuşuna basılı tutarken Q yapalım 6 tuş daha gelecektir.
+> vim kullanırken esc tuşu lazım olacak hemen o paneli de aktif edelim de öyle kalmayalım. Ses artırma tuşuna basılı tutarken Q yapalım 6 tuş daha gelecektir.
 
 `crontab` ayarı için,
 {% highlight bash %}
