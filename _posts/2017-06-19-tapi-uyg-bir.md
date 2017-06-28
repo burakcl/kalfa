@@ -228,3 +228,31 @@ Burada sorunlardan biride  betikteki kabuk adresini değiştirmemiz gerekiyor.
 Telefona attığımız dosyayı termuxa aktarmak için dosyayı taşı sorulan adreste termux seçeneğini seç ya da birlikte aç seçeneği sağlayan bir dosya yöneticisi ile termuxu seçmek yeterli olacaktır.
 Ek olarak dosyaya çalıştırma iznini `crontab`ında çalıştırabileceği şekilde (a+x) verelim.
 ### Bitti. Artık telefon bu işi istediğiniz saatlerde yapacaktır.
+### Uygulama bir hatalar
+Hiç test etmeden bıraktık kullandıkça çıkan sorun ve ürettiğimiz çözümleri buradan aşağıya not etmek istedim.
+
+#### Hata 0: Tweet metin ayracı
+Virgül kullanmıştık fakat cümle içerisindeki virgülü unuttuğumuzdan dolayı tweet metninin eksik oluşmasına yol açtı. Virgül yerine noktalı virgül ile değiştirdim.
+
+#### Hata 1: Zaman ve Gösterge hatası
+Bazen saat bir iki dk geçikme göstermekte en azından bu termux üzerinde karşılaştığım bir durum. Buna çözüm olarak tweetleri tam ayrım noktalarından yani tam ortada zamandan gösterge ayarı yapmak daha iyi bir çözüm oldu. Sonuç olarak fonksiyonların en son hali aşağıdadır.
+Örnek, Sabah fonksiyon göstergesini dakikanın 0 dan farklı olup olmadığı kontrolünü 30 dan büyük mü diye değiştirdim. Bu sayede her tweeti atmak için 30 dk vaktim olmuş oldu.
+
+{% highlight bash %}
+
+function sabahkusu() {
+  [ 30 -lt $(date +%M) ] && c=0.5
+  gosterge=$(echo "($simdi+$c-7)*2-1" | bc | cut -d '.' -f1)
+  dosya=adimlar
+}
+function ogle() {
+  [ 20 -lt $(date +%M) ] && gosterge=2
+  [ 40 -lt $(date +%M) ] && gosterge=3
+  dosya=uygulamalar
+}
+function aksamvakti() {
+  [ 45 -lt $(date +%M) ] && c=0.5
+  gosterge=$(echo "($simdi+$c-15)*2-1" | bc | cut -d '.' -f1)
+  dosya=kalfarep
+}
+{% endhighlight %}
