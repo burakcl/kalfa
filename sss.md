@@ -2,6 +2,8 @@
 layout: post
 title: Soru-Cevap
 date: 2017-06-28 19:33:32 +0300
+categories: Soru-Cevap
+tags: Soru-Cevap
 ---
 #### 1. Kalfa nedir?
 >Kalfa, GNU Bash kabuk rehberine ek olarak kabuk programlama üzerine Türkçe adım ve uygulamalar ile neler yapılabilir bunu göstermektir.
